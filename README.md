@@ -2,12 +2,10 @@
 
 Participants:
 
-- Leader: [Name - ID]
-- Member: [Name - ID]
-- Member: [Name - ID]
+- Leader: [Le Ngoc Thai Phuong - ID 18521272]
 
 
-Task management table: [here](https://trello.com/b/N0dTGGkV) [Replace by your public board later]
+Task management table: https://mature-daughter-bac.notion.site/3dff9892bec44b0a82ed07e5ddca80e2?v=6cc39381e3de46e393429d6397f1e8b5
 
 UI / UX prototype: [here](https://www.figma.com/community/file/1017274846862703022) [Replace by your public prototype later]
 
