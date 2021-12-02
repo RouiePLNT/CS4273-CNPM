@@ -1,0 +1,50 @@
+
+
+<div class = "container">
+  <div class="form-row">
+    <div class="col-4">
+      <strong>Tên Sản Phẩm</strong>
+    </div>
+    <div class="col">
+     <strong>Số lượng</strong>
+    </div>
+    <div class="col">
+      <strong>Giá gốc</strong>
+    </div>
+    <div class="col">
+      <strong>Giảm giá</strong>
+    </div>
+    <div class="col">    
+    </div>
+   </div>
+   
+   <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+
+
+    {{# each product}}
+        <form method="post" action="/product/{{this._id}}?_method=PUT">
+            <div class="form-row">
+                <div class="col-4">
+                <input class="form-control" value="{{this.name}}" id="name" name ="name" placeholder={{this.name}}>
+                </div>
+                <div class="col">
+                <input class="form-control" value="{{this.quantity}}" id="quantity" name ="quantity" placeholder={{this.quantity}}>
+                </div>
+                <div class="col">
+                <input class="form-control" value="{{this.price}}" id="price" name ="price" placeholder={{this.price}}>
+                </div>
+                <div class="col">
+                <input class="form-control" value="{{this.discount}}" id="discount" name ="discount" placeholder={{this.discount}}>
+                </div>
+
+                <div class="col">
+                    <input type="hidden" value="{{this._id}}">
+                    <button type="submit" class = "btn btn-default btn-block">Save</button>
+                </div>
+            </div>
+        <br>
+        </form>
+    {{/each}}
+
+</div>
+
