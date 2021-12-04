@@ -14,7 +14,7 @@ const App = (props) => {
       redirect: 'follow'
     };
 
-    fetch("http://127.0.0.1:5000/item", requestOptions)
+    fetch("https://fac7-2001-ee0-4e3c-7b40-986e-cf51-f697-704f.ngrok.io/item/", requestOptions)
       .then(response => response.text())
       .then(result => {
         setItems(JSON.parse(result).items)
@@ -40,7 +40,7 @@ const App = (props) => {
       redirect: 'follow'
     };
 
-    fetch("http://127.0.0.1:5000/item", requestOptions)
+    fetch("https://fac7-2001-ee0-4e3c-7b40-986e-cf51-f697-704f.ngrok.io/item/", requestOptions)
       .then(response => response.text())
       .then(result => {
         console.log(result)
@@ -61,7 +61,7 @@ const App = (props) => {
       redirect: 'follow'
     };
 
-    fetch("http://127.0.0.1:5000/item", requestOptions)
+    fetch("https://fac7-2001-ee0-4e3c-7b40-986e-cf51-f697-704f.ngrok.io/item/", requestOptions)
       .then(response => response.text())
       .then(result => {
         console.log(result)
@@ -82,7 +82,7 @@ const App = (props) => {
       redirect: 'follow'
     };
 
-    fetch("http://127.0.0.1:5000/item", requestOptions)
+    fetch("https://fac7-2001-ee0-4e3c-7b40-986e-cf51-f697-704f.ngrok.io/item/", requestOptions)
       .then(response => response.text())
       .then(result => {
         console.log(result)
